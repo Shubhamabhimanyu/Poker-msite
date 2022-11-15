@@ -1278,3 +1278,110 @@ ul.colorful li a.active,ul.colorful li button.active,ul.colorful ul.panel-tab-be
         font-size:13px
     }
 }
+
+/* pfsvideo */
+
+.main-module {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 4%);
+}
+.video-section-title-featured {
+    padding-left: 0px;
+    margin-bottom: 16px;
+}
+.video-section-title, .video-section-title-featured {
+    font-size: 20px;
+    color: #000;
+    padding-left: 16px;
+}
+.video-box {
+    position: relative;
+    padding-bottom: 56.25%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.avatar {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-image: url(https://mobile.alphabetabox.com/static-web/images/nps-videos/pb-logo.svg);
+    background-size: 30px 30px;
+    margin-right: 4px;
+}
+.video-info {
+    display: inline-block;
+}
+.video-text {
+    font-size: 10px;
+    color: #323131;
+    margin-top: 8px;
+}
+.video-sub-text {
+    margin-top: 0px;
+    line-height: 10px;
+}
+.video-sub-text-container {
+    font-size: 10px;
+    color: #929292;
+    display: inline-block;
+    line-height: 10px;
+}
+
+
+
+.main-module_horizontal_video {
+    /* border: 1px solid green; */
+    padding: 4px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.video-container {
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 290px;
+    margin-right: 16px;
+}
+.video-box {
+    position: relative;
+    padding-bottom: 0px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.video-box iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* position: absolute; */
+}
+.row-Style {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-12-Style {
+    flex: 0 0 auto;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 12px;
+}
+
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}

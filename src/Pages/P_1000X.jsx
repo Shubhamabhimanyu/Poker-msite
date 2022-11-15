@@ -1,8 +1,7 @@
 import React from 'react';
-import Footer from './Footer';
-import Header from './Header';
 import '../Components/Assests/Style.css'
-
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 export default function P_1000X() {
   return (
     <>
@@ -1319,7 +1318,7 @@ export default function P_1000X() {
           </div>
         </div>
         
-        <Footer/>
+       <Footer/>
       </div>
     </div>
     
